@@ -1,0 +1,16 @@
+.greyscale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+}
+/*
+*
+*
+* Colors
+*
+*/
+.panel-0 {
+  background: url('../img/section/section_0_title.png') center no-repeat;
+}

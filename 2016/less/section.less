@@ -1,0 +1,227 @@
+@import "mixins.less";
+@import "spec.less";
+
+
+.panel {
+	padding: 200px 0;
+	@media screen and (max-width:40rem) {
+		padding: 80px 0;
+	}
+	position: relative;
+	background-color: white;
+	text-align: center;
+	overflow: hidden;
+	// .box-shadow(0 5px 15px rgba(0, 0, 0, 0.15));
+}
+.panel-2, .panel-4, .panel-6, .panel-8, .panel-10, .panel-12 {
+	padding: 400px 0;
+}
+.panel-0 {
+	background: url('../img/background-hero-gradient.png') center center no-repeat;
+	.cover();
+	padding: 300px 0;
+	@media screen and (max-width:40rem) {
+		padding: 150px 0;
+	}
+	position: relative;
+	.logo {
+		margin-bottom: 1rem;
+	}
+	.inside-centered {
+		z-index: 100;
+		position: relative;
+	}
+	#particles-js {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	#dive-down {
+		position: absolute;
+		bottom: 2rem;
+		text-align: center;
+		width: 100%;
+		z-index: 123;
+	    animation: bounce 0.5s ease infinite alternate;
+	}
+}
+@keyframes bounce{
+     from {bottom: 20px;}
+     to   {bottom: 30px;}
+}
+.panel-1 {
+	background: #fff;
+}
+.panel-4 {
+	background: url('../img/section/section_4.png') center center no-repeat;
+	.cover();
+}
+.panel-3 {
+	.data-company {
+		margin-bottom: 80px;
+		@media screen and (max-width:40rem) {
+			margin-bottom: 40px;
+		}
+	}
+}
+#sqooba-solutions {
+	.solutions {
+		margin-top: 80px;
+		.solution {
+			h3 {
+				margin-top: 0;
+			}
+			@media screen and (max-width:40rem) {
+				margin-bottom: 40px;
+			}
+			p{
+				text-align: left;
+			}
+			img{
+				max-width: 30%;
+			}
+		}
+	}
+}
+.panel-6 {
+	.origin-gradient (top,#7ccfd9,#03aec2);
+}
+.panel-7 {
+	.how {
+		padding: 60px 0;
+		text-align: left;
+	}
+}
+.panel-8 {
+	.origin-gradient (top,#00adc2,#008dbd);
+}
+.panel-9 {
+	.benefits {
+		padding: 20px 0;
+		@media screen and (max-width:40rem) {
+			padding: 0 0 !important;
+		}
+		text-align: left;
+		.benefit {
+			span.block {
+				width: 33.33%;
+				height: 2px;
+				background: @mainColor;
+				display: block;
+				margin: 10px 0;
+			}
+			h4{
+				text-align: left;
+				padding-bottom: 0;
+				text-transform: initial;
+			}
+		}
+	}
+}
+.panel-10 {
+	.origin-gradient (top,#008abd,#0159b0);
+}
+.panel-11 {
+	.inside-ocean {
+		padding: 0 0;
+		text-align: left;
+		h4 {
+			text-align: left;
+			padding: 0 0 10px 0;
+			text-transform: initial;
+		}
+		.inside-ocean-item {
+			padding: 30px 0;
+			@media screen and (max-width:40rem) {
+				padding: 10px 0;
+			}
+			img {
+				max-width: 80%;
+			}
+			@media screen and (max-width:40rem) {
+				text-align: center;
+				h4 {
+					text-align: center;
+				}
+				img {
+					max-width: 20%;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+.panel-12 {
+	background: url('../img/section/section_12.png') center center no-repeat;
+	.cover();
+}
+.panel-14 {
+	.values-title, .values, .team, .team-title, #footer {
+		position: relative;
+		z-index: 12;
+	}
+	.values {
+
+		color: white;
+		@media screen and (max-width: 40rem) {
+			padding: 30px;
+		}
+		padding: 60px 0;
+		margin-bottom: 100px;
+		text-align: center;
+	}
+	.origin-gradient(top, #02479f, #031235);
+	color: white !important;
+	h2, h4 {
+		color: white !important;
+	}
+	h4 {
+		text-align: left;
+	}
+	.team {
+		padding: 60px 0;
+		.people {
+			@media screen and (max-width: 40rem) {
+				margin-bottom: 25px;
+			}
+			img {
+				border: 1px darken(@mainColor, 2%) solid;
+				.transition(all linear .2s);
+				.border-radius(50%);
+				background: @mainColor;
+				&:hover {
+					.transition(all linear .2s);
+					.transform(scale(1.1));
+				}
+			}
+		}
+	}
+	#footer {
+		padding: 100px 0 0 0;
+		@media screen and (max-width: 40rem) {
+			padding: 20px 0 0 0;
+			text-align: center;
+			h4 {
+				text-align: center;
+			}
+		}
+		text-align: left;
+		.main-network {
+				margin: 0;
+				padding: 0;
+				li {
+					display: inline-block;
+					a {
+						padding: 0 0.5rem;
+						color: white !important;
+						font-size: 1.5rem;
+						&:hover {
+							color: @mainLink !important;
+						}
+					}
+				}
+		}
+	}
+}

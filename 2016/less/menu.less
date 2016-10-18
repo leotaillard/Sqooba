@@ -1,0 +1,73 @@
+@import "mixins.less";
+@import "spec.less";
+
+#main-nav {
+	z-index: 1235;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	&.headroom--unpinned {
+		opacity: 0;
+		.transition(all linear .5s);
+		.nav-logo {
+			opacity: 0;
+		}
+	}
+	&.headroom--pinned {
+		opacity: 1;
+		.transition(all linear .5s);
+		.nav-logo {
+			opacity: 1;
+		}
+	}
+	padding: 20px 0;
+	background-color: @mainColor;
+	&.headroom--top {
+		.nav-logo {
+			.transition(all linear .5s);
+			opacity: 0;
+		}
+	}
+	.nav-logo {
+		opacity: 0;
+		max-width: 25px;
+	}
+	#main-menu {
+		padding: 0;
+		margin: 0;
+		text-align: right;
+		.main-nav-button {
+			&.active {
+				color: @mainLink;
+			}
+		}
+		li {
+			&.main-nav-button {
+				cursor: pointer;
+				&.active {
+					span {
+						color: @mainLink;
+					}
+				}
+				display: inline-block;
+				span {
+					color: white;
+				}
+			}
+			&.open {
+				display: inline-block;
+				@media screen and (max-width:40rem) {
+					display: block;
+				}
+			}
+			&.close {
+				display: none;
+			}
+			padding: 0 10px;
+			a {
+				color: white !important;
+			}
+		}
+	}
+}

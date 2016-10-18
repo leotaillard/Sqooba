@@ -1,0 +1,130 @@
+@import "mixins.less";
+@import "spec.less";
+
+
+.sqooba-illu {
+	position: absolute;
+	&#background-hero {
+		z-index: 80;
+		bottom: 0%;
+		left: 0%;
+	}
+
+
+	&#panel-6-illu-bulles {
+		top: 5%;
+		right: 10%;
+	}
+	&#panel-6-illu-hippocampe {
+		top: 15%;
+		left: 10%;
+	}
+	&#panel-6-illu-poissons {
+		bottom: 15%;
+		right: 25%;
+	}
+	&#panel-6-illu-nemo-1 {
+		bottom: 50%;
+		left: 50%;
+	}
+	&#panel-6-illu-nemo-2 {
+		bottom: 45%;
+		left: 35%;
+	}
+	&#panel-6-illu-algues {
+		bottom: 0%;
+		left: 0%;
+	}
+
+
+
+	&#panel-8-illu-algues {
+		bottom: 0%;
+		left: 0%;
+		@media screen and (max-width:40rem) {
+			bottom: 0%;
+			left: -25%;
+		}
+	}
+	&#panel-8-illu-roche {
+		bottom: -120%;
+		right: 0%;
+	}
+	&#panel-8-illu-poissons {
+		bottom: 50%;
+		right: 50%;
+	}
+	&#panel-8-illu-poisson {
+		bottom: 46%;
+		right: 46%;
+		@media screen and (max-width:40rem) {
+			bottom: 60%;
+			left: 60%;
+		}
+	}
+	&#panel-10-illu-roche {
+		bottom: 0%;
+		left: 0%;
+		img {
+			max-width: 100%;
+		}
+		@media screen and (max-width:40rem) {
+			bottom: 0%;
+			left: -20%;
+		}
+	}
+	&#panel-10-illu-roche-algue {
+		bottom: 0%;
+		right: 0%;
+		img {
+			max-width: 100%;
+		}
+		@media screen and (max-width:40rem) {
+			bottom: 0%;
+			right: -30%;
+		}
+	}
+	&#panel-10-illu-algues {
+		bottom: -25%;
+		left: 20%;
+		img {
+			max-width: 80%;
+		}
+	}
+	&#panel-10-illu-poisson {
+		top: 5%;
+		left: 10%;
+	}
+	&#panel-10-illu-banc-poissons {
+		bottom: 15%;
+		left:25%;
+	}
+
+	&#contact-illu-fond {
+		bottom: -2%;
+		left: 0;
+	}
+	&#contact-illu-requin {
+		top: 30%;
+		right: 10%;
+	}
+	&#contact-illu-poulpe {
+		top: 0;
+		left: -30%;
+		@media screen and (max-width:40rem) {
+			top: 10%;
+		    left: -120%;
+    	}
+	}
+	&#contact-illu-banc-poissons {
+		top:0;
+		right: 0;
+		@media screen and (max-width:40rem) {
+    		top: 5%;
+    		right: -90%;
+    	}
+	}
+	.contact-illu {
+		z-index: 1;
+	}
+}

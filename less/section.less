@@ -1,0 +1,235 @@
+@import "mixins.less";
+@import "spec.less";
+.page {
+	.origin-gradient (top,#03aec2,#031235);
+	overflow: hidden;
+}
+.panel {
+	padding: 200px 0;
+	@media screen and (max-width:40rem) {
+		padding: 80px 0;
+	}
+	position: relative;
+	// background-color: white;
+	text-align: center;
+	// .box-shadow(0 5px 15px rgba(0, 0, 0, 0.15));
+}
+.panel-2, .panel-4, .panel-6 {
+	padding: 400px 0;
+}
+.panel-0 {
+	overflow: hidden;
+	background: url('../img/background-hero-gradient.png') center center no-repeat;
+	.cover();
+	padding: 150px 0;
+	@media screen and (max-width:40rem) {
+		padding: 150px 0;
+	}
+	position: relative;
+	.logo {
+		margin-bottom: 1rem;
+	}
+	.inside-centered {
+		z-index: 100;
+		position: relative;
+	}
+	#particles-js {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	#dive-down {
+		a {
+			padding: 12px;
+			.border-radius(20px);
+			background: white;
+			.transition(all 0.5s ease);
+			&:hover {
+				color: white !important;
+				.transition(all 0.5s ease);
+				background: #031235;
+			}
+		}
+		position: absolute;
+		bottom: 2rem;
+		text-align: center;
+		width: 100%;
+		z-index: 123;
+	    animation: bounce 0.5s ease infinite alternate;
+	}
+}
+@keyframes bounce{
+     from {bottom: 20px;}
+     to   {bottom: 30px;}
+}
+.panel-1 {
+	background: url('../img/background-panel-1.png') top center no-repeat;
+	.data-company {
+		margin-bottom: 80px;
+		@media screen and (max-width:40rem) {
+			margin-bottom: 40px;
+		}
+	}
+}
+#sqooba-solutions {
+	.solutions {
+		margin-top: 80px;
+		.solution {
+			h3 {
+				margin-top: 0;
+			}
+			@media screen and (max-width:40rem) {
+				margin-bottom: 40px;
+			}
+			p{
+				text-align: left;
+			}
+			img{
+				max-width: 30%;
+			}
+		}
+	}
+}
+.panel-2 {
+	// .origin-gradient (top,#03aec2,red);
+}
+.panel-3 {
+	.how {
+		padding: 60px 0;
+		text-align: left;
+	}
+}
+.panel-4 {
+	// .origin-gradient (top,#00adc2,#008dbd);
+}
+.panel-5 {
+	.benefits {
+		padding: 20px 0;
+		@media screen and (max-width:40rem) {
+			padding: 0 0 !important;
+		}
+		text-align: left;
+		.benefit {
+			span.block {
+				width: 33.33%;
+				height: 2px;
+				background: @mainColor;
+				display: block;
+				margin: 10px 0;
+			}
+			h4{
+				text-align: left;
+				padding-bottom: 0;
+				text-transform: initial;
+			}
+		}
+	}
+}
+.panel-6 {
+	// .origin-gradient (top,#008abd,#0159b0);
+}
+.panel-7 {
+	color: white !important;
+	h2 {
+		color: white !important;
+	}
+	.inside-ocean {
+		padding: 0 0;
+		text-align: left;
+		h4 {
+			color: white !important;
+			text-align: left;
+			padding: 0 0 10px 0;
+			text-transform: initial;
+		}
+		.inside-ocean-item {
+			padding: 30px 0;
+			@media screen and (max-width:40rem) {
+				padding: 10px 0;
+			}
+			img {
+				max-width: 80%;
+			}
+			@media screen and (max-width:40rem) {
+				text-align: center;
+				h4 {
+					text-align: center;
+				}
+				img {
+					max-width: 20%;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+.panel-8 {
+	overflow: hidden;
+	.values-title, .values, .team, .team-title, #footer {
+		position: relative;
+		z-index: 12;
+	}
+	.values {
+		color: white;
+		@media screen and (max-width: 40rem) {
+			padding: 30px;
+		}
+		padding: 60px 0;
+		margin-bottom: 100px;
+		text-align: center;
+	}
+	// .origin-gradient(top, #02479f, #031235);
+	color: white !important;
+	h2, h4 {
+		color: white !important;
+	}
+	h4 {
+		text-align: left;
+	}
+	.team {
+		padding: 60px 0;
+		.people {
+			@media screen and (max-width: 40rem) {
+				margin-bottom: 25px;
+			}
+			img {
+				border: 1px darken(@mainColor, 2%) solid;
+				.transition(all linear .2s);
+				.border-radius(50%);
+				background: @mainColor;
+				&:hover {
+					.transition(all linear .2s);
+					.transform(scale(1.1));
+				}
+			}
+		}
+	}
+	#footer {
+		padding: 100px 0 0 0;
+		@media screen and (max-width: 40rem) {
+			padding: 20px 0 0 0;
+			text-align: center;
+			h4 {
+				text-align: center;
+			}
+		}
+		text-align: left;
+		.main-network {
+				margin: 0;
+				padding: 0;
+				li {
+					display: inline-block;
+					a {
+						padding: 0 0.5rem;
+						color: white !important;
+						font-size: 1.5rem;
+						&:hover {
+							color: @mainLink !important;
+						}
+					}
+				}
+		}
+	}
+}
