@@ -67,7 +67,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 150px 0;
+  padding: 100px 0 250px 0;
   position: relative;
 }
 @media screen and (max-width: 40rem) {
@@ -159,6 +159,12 @@
   padding: 60px 0;
   text-align: left;
 }
+.panel-5 {
+  color: white;
+}
+.panel-5 h2 {
+  color: white;
+}
 .panel-5 .benefits {
   padding: 20px 0;
   text-align: left;
@@ -168,17 +174,22 @@
     padding: 0 0 !important;
   }
 }
+.panel-5 .benefits .benefit {
+  color: white;
+}
 .panel-5 .benefits .benefit span.block {
   width: 33.33%;
   height: 2px;
-  background: #01034d;
+  background: white;
   display: block;
   margin: 10px 0;
 }
 .panel-5 .benefits .benefit h4 {
+  color: white;
   text-align: left;
   padding-bottom: 0;
   text-transform: initial;
+  padding-top: 0;
 }
 .panel-7 {
   color: white !important;
@@ -270,6 +281,7 @@
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #01034d;
+  margin-bottom: 10px;
 }
 .panel-8 .team .people img:hover {
   -webkit-transition: all linear 0.2s;
@@ -293,6 +305,12 @@
   .panel-8 #footer h4 {
     text-align: center;
   }
+}
+.panel-8 #footer a {
+  color: white !important;
+}
+.panel-8 #footer a:hover {
+  color: #444444 !important;
 }
 .panel-8 #footer .main-network {
   margin: 0;

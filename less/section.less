@@ -21,7 +21,7 @@
 	overflow: hidden;
 	background: url('../img/background-hero-gradient.png') center center no-repeat;
 	.cover();
-	padding: 150px 0;
+	padding: 100px 0 250px 0;
 	@media screen and (max-width:40rem) {
 		padding: 150px 0;
 	}
@@ -105,6 +105,10 @@
 	// .origin-gradient (top,#00adc2,#008dbd);
 }
 .panel-5 {
+	color: white;
+	h2 {
+		color: white;
+	}
 	.benefits {
 		padding: 20px 0;
 		@media screen and (max-width:40rem) {
@@ -112,17 +116,20 @@
 		}
 		text-align: left;
 		.benefit {
+			color: white;
 			span.block {
 				width: 33.33%;
 				height: 2px;
-				background: @mainColor;
+				background: white;
 				display: block;
 				margin: 10px 0;
 			}
 			h4{
+				color: white;
 				text-align: left;
 				padding-bottom: 0;
 				text-transform: initial;
+				padding-top: 0;
 			}
 		}
 	}
@@ -199,6 +206,7 @@
 				.transition(all linear .2s);
 				.border-radius(50%);
 				background: @mainColor;
+				margin-bottom: 10px;
 				&:hover {
 					.transition(all linear .2s);
 					.transform(scale(1.1));
@@ -213,6 +221,12 @@
 			text-align: center;
 			h4 {
 				text-align: center;
+			}
+		}
+		a {
+			color: white !important;
+			&:hover {
+				color: @mainLink !important;
 			}
 		}
 		text-align: left;

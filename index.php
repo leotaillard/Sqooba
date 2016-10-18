@@ -244,30 +244,26 @@
 			<div class="row team">
 				<div class="small-6 medium-3 columns">
 					<div class="people">
-						<span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Daniel Neuhaus</br>Co-creation">
-							<img src="img/people/people-2.jpg" alt="Name and">
-						</span>
+							<img src="img/people/people-2.jpg" alt="Daniel Neuhaus">
+							<span>Daniel Neuhaus</br>Co-creation</span>
 					</div>
 				</div>
 				<div class="small-6 medium-3 columns">
 					<div class="people">
-						<span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Theus Hossmann</br>Data Science">
-							<img src="img/people/people-4.jpg" alt="Name and">
-						</span>
+							<img src="img/people/people-4.jpg" alt="Theus Hossmann">
+							<span>Theus Hossmann</br>Data Science</span>
 					</div>
 				</div>
 				<div class="small-6 medium-3 columns">
 					<div class="people">
-					<span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Samir Abdou</br>PhD Engineering">
-						<img src="img/people/people-1.jpg" alt="Name and">
-					</span>
+						<img src="img/people/people-1.jpg" alt="Samir Abdou">
+						<span>Samir Abdou</br>PhD Engineering</span>
 					</div>
 				</div>
 				<div class="small-6 medium-3 columns">
 					<div class="people">
-						<span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Benoit Perroud</br>DevOps">
-							<img src="img/people/people-3.jpg" alt="Name and">
-						</span>
+							<img src="img/people/people-3.jpg" alt="Benoit Perroud">
+							<span>Benoit Perroud</br>DevOps</span>
 					</div>
 				</div>
 			</div>
@@ -279,27 +275,27 @@
 							<div class="small-12 medium-12 columns">
 								<h4>Let’s dive</h4>
 							</div>
-							<div class="small-12 medium-3 columns">
-								<p><span class="bold">sqooba</span><br />
-								@sqooba.io</p>
-							</div>
-							<div class="small-12 medium-3 columns">
+							<div class="small-12 medium-4 columns">
+								<p><span class="bold">sqooba</span></p>
 								<p>Bluefactory<br />
 								Passage du Cardinal 1<br />
 								Annexe 2<br />
-							</div>
-							<div class="small-12 medium-3 columns">
-								<p>1705 Fribourg<br />
+								1705 Fribourg<br />
 								Switzerland
-							</p>
+								<p><a href="mailto:contact@sqooba.io">contact@sqooba.io</a></p>
 							</div>
-							<div class="small-12 medium-3 columns">
+							<div class="small-12 medium-4 columns">
 								<ul class="main-network">
 									<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 									<li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 									<li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 									<li><a href="#" target="_blank"><i class="fa fa-xing" aria-hidden="true"></i></a></li>
 								</ul>
+							</div>
+							<div class="small-12 medium-4 columns">
+								<p><span class="bold">We are hiring!</span></p>
+								<p>Apply here:</p>
+								<p><a href="mailto:diver@sqooba.io">diver@sqooba.io</a></p>
 							</div>
 						</div>
 					</div>
