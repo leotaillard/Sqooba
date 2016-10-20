@@ -472,23 +472,6 @@
 .sqooba-illu#panel-0-illu-drone {
   top: 30%;
   right: 12%;
-  animation: drone-h 0.75s linear infinite alternate, drone-v 0.75s linear infinite alternate;
-}
-@keyframes drone-h {
-  from {
-    right: 11.5%;
-  }
-  to {
-    right: 12.5%;
-  }
-}
-@keyframes drone-v {
-  from {
-    top: 29.5%;
-  }
-  to {
-    top: 31.5%;
-  }
 }
 .sqooba-illu#panel-6-illu-bulles {
   top: 5%;
