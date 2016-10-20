@@ -11,20 +11,39 @@
 						<p class="bold">We empower you to be one</p>
 						<p>we believe that in a data-driven world, the key to future success is to build capabilities that enable organizations to</p>
 						<p class="bold">innovate with data | disperse the insights | democratize the tools | unleash the creativity</p>
+						<div id="dive-down">
+							<a href="#sqooba-team">Contact us</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="dive-down">
-			<a href="#sqooba-team">Contact us</a>
-		</div>
 		<div id="particles-js"></div>
+		<div class="sqooba-illu" id="panel-0-illu-birds">
+			<img src="img/panel-0/birds.png" alt="">
+		</div>
+		<div class="sqooba-illu" id="panel-0-illu-nuage-left-1">
+			<img src="img/panel-0/nuage_left_1.png" alt="">
+		</div>
+		<div class="sqooba-illu" id="panel-0-illu-nuage-left-2">
+			<img src="img/panel-0/nuage_left_2.png" alt="">
+		</div>
+		<div class="sqooba-illu" id="panel-0-illu-drone">
+			<img src="img/panel-0/drone.png" alt="">
+		</div>
+
+		<div class="sqooba-illu" id="panel-0-illu-nuage-right-1">
+			<img src="img/panel-0/nuage_right_1.png" alt="">
+		</div>
+		<div class="sqooba-illu" id="panel-0-illu-nuage-right-2">
+			<img src="img/panel-0/nuage_right_2.png" alt="">
+		</div>
+
 		<div class="sqooba-illu animateme" data-when="enter" data-from="1" data-to="0" data-opacity="0" data-translatey="850" id="background-hero">
-			<img src="img/background-hero.gif" alt="">
+			<img src="img/background-hero.png" alt="">
 		</div>
 	</section>
 	<div class="page">
-
 		<section class="panel panel-1" id="sqooba-value-proposition">
 			<div class="row">
 				<div class="small-centered small-12 medium-8 columns scrollme">

@@ -67,7 +67,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 100px 0 250px 0;
+  padding: 100px 0 350px 0;
   position: relative;
 }
 @media screen and (max-width: 40rem) {
@@ -91,11 +91,12 @@
 }
 .panel-0 #dive-down {
   position: absolute;
-  bottom: 2rem;
+  bottom: 0;
+  left: 0;
   text-align: center;
   width: 100%;
   z-index: 123;
-  animation: bounce 0.5s ease infinite alternate;
+  animation: bounce 0.75s ease infinite alternate;
 }
 .panel-0 #dive-down a {
   padding: 12px;
@@ -121,10 +122,10 @@
 }
 @keyframes bounce {
   from {
-    bottom: 20px;
+    bottom: -40px;
   }
   to {
-    bottom: 30px;
+    bottom: -30px;
   }
 }
 .panel-1 {
@@ -447,6 +448,47 @@
   z-index: 80;
   bottom: 0%;
   left: 0%;
+}
+.sqooba-illu#panel-0-illu-birds {
+  top: 15%;
+  left: 10%;
+}
+.sqooba-illu#panel-0-illu-nuage-left-1 {
+  top: 10%;
+  left: 6%;
+}
+.sqooba-illu#panel-0-illu-nuage-left-2 {
+  top: 35%;
+  left: 12%;
+}
+.sqooba-illu#panel-0-illu-nuage-right-1 {
+  top: 10%;
+  right: 6%;
+}
+.sqooba-illu#panel-0-illu-nuage-right-2 {
+  top: 15%;
+  right: 20%;
+}
+.sqooba-illu#panel-0-illu-drone {
+  top: 30%;
+  right: 12%;
+  animation: drone-h 0.75s linear infinite alternate, drone-v 0.75s linear infinite alternate;
+}
+@keyframes drone-h {
+  from {
+    right: 11.5%;
+  }
+  to {
+    right: 12.5%;
+  }
+}
+@keyframes drone-v {
+  from {
+    top: 29.5%;
+  }
+  to {
+    top: 31.5%;
+  }
 }
 .sqooba-illu#panel-6-illu-bulles {
   top: 5%;
