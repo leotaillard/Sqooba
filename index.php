@@ -270,13 +270,13 @@
 				<div class="small-6 medium-3 columns">
 					<div class="people">
 							<img src="img/people/people-4.jpg" alt="Theus Hossmann">
-							<span>Theus Hossmann</br>Data Science</span>
+							<span>Theus Hossmann PhD</br>Data Science</span>
 					</div>
 				</div>
 				<div class="small-6 medium-3 columns">
 					<div class="people">
 						<img src="img/people/people-1.jpg" alt="Samir Abdou">
-						<span>Samir Abdou</br>PhD Engineering</span>
+						<span>Samir Abdou PhD</br>Engineering</span>
 					</div>
 				</div>
 				<div class="small-6 medium-3 columns">
@@ -312,7 +312,7 @@
 								</ul>
 							</div>
 							<div class="small-12 medium-4 columns">
-								<p><span class="bold">We are hiring!</span></p>
+								<p><span class="bold"><a href="http://www.sqooba.io/jobs.html">We are hiring!</a></span></p>
 								<p>Apply here:</p>
 								<p><a href="mailto:diver@sqooba.io">diver@sqooba.io</a></p>
 							</div>
